@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Create a dataset
+data = np.random.randint(0, 100, (100, 2))
+
+# Plot the dataset
+plt.scatter(data[:, 0], data[:, 1])
+
+# Add a title and labels to the axes
+plt.title("Dataset Visualization")
+plt.xlabel("Feature 1")
+plt.ylabel("Feature 2")
+
+# Show the plot
+plt.show()
